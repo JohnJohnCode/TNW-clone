@@ -1313,9 +1313,13 @@ a { text-decoration: none; }
 		padding-left: 2rem;
 		padding-right: 2rem;
 		padding-bottom: 7rem;
-		box-sizing: border-box;
-		margin: auto;
+	}
+
+	.videos-header,
+	.videos-wrapper {
 		max-width: 80rem;
+		margin-left: auto;
+		margin-right: auto;
 	}
 
 	.wwu-flexCont {
