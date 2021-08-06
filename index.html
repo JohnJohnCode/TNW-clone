@@ -411,8 +411,7 @@
       <div class="smallVids-fade"></div>
       <div class="mainVid-flexGrow">
         <div class="mainVid-cont">
-          <iframe width="100%" height="100%" class="rickroll" id="rick" src="https://www.youtube.com/embed/dQw4w9WgXcQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-          <img src="./assets/bait.png" height="100%" width="100%" class="rickroll" id="bait" onclick="bait()" alt="video thumbnail">
+          <iframe id="rick" class="rickroll" width="100%" height="100%" src="https://www.youtube.com/embed/dQw4w9WgXcQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>          <img src="./assets/bait.png" height="100%" width="100%" class="rickroll" id="bait" onclick="bait()" alt="video thumbnail">
         </div>
         <div class="mainVid-info">
           <h3 class="mainVid-title">What size iPad Pro should you buy?</h3>
@@ -630,7 +629,6 @@
       let x = document.getElementById("bait");
       let y = document.getElementById("rick");
       x.style.display = "none";
-      rick.play();
     }
   </script>
 </body>
